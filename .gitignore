@@ -1,0 +1,29 @@
+@"
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/uploads/
+backend/models/
+*.pyc
+.env
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.apk
+*.aab
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Encoding UTF8 .gitignore
+hs_err_pid*.log
+replay_pid*.log
+local.properties
